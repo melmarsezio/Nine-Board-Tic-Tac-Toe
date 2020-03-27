@@ -1,5 +1,6 @@
 # Nine-Board-Tic-Tac-Toe
 #### Coursework project for Artificial Intelligence
+![https://github.com/melmarsezio/Nine-Board-Tic-Tac-Toe/blob/master/tic%20tac%20toe.jpg](https://github.com/melmarsezio/Nine-Board-Tic-Tac-Toe/blob/master/tic%20tac%20toe.jpg)
 
 ## Introduction
 In this project you will be writting an agent to play the game of Nine-Board Tic-Tac-Toe.
@@ -109,14 +110,7 @@ Your program will receive commands from the server (`init`, `start()`, `second_m
 (the parameters for these commands are explained in the comments of `agent.pl`)
 
 Communication between the server and the player(s) is illustrated in this brief example:
-
-
-
-
-
-
-
-
+![https://github.com/melmarsezio/Nine-Board-Tic-Tac-Toe/blob/master/communication.png](https://github.com/melmarsezio/Nine-Board-Tic-Tac-Toe/blob/master/communication.png)
 
 ## Language Options
 
