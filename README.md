@@ -121,3 +121,26 @@ Communication between the server and the player(s) is illustrated in this brief 
 ## Language Options
 
 You are free to write your player in any language you wish.
+1. If you write in Prolog, your program will be invoked like this:
+    ```
+    prolog (port) < agent.wrap
+    ```
+    You should submit your `.pl` files (including `agent.pl`). Feel free to use `agent.pl` (identical to `randt.pl`) as a starting point, as well as `alphabeta.pl` (which implements alpha-beta search for regular Tic-Tac-Toe).
+2. If you write in Java, your program will be invoked by
+    ```
+    java Agent -p (port)
+    ```
+    You should submit your `.java` files (no `.class` files). The main file must be called `Agent.java`
+3. If you write in Python, your program will be invoked by
+    ```
+    ./agent.py -p (port)
+    ```
+    You should submit your `.py` files (including `agent.py`). The first line of your code must specify which version of Prolog you are using, e.g  
+    ```
+    #!/usr/bin/python
+    ```  
+4. If you write in C or C++, your program will be invoked by:
+    ```
+    ./agent -p (port)
+    ```
+    You should submit your source files (no object files) as well as a `Makefile` which, when invoked with the command `"make"`, will produce an executable called `agent`. Feel free to use the supplied files as a starting point (especially `agent.c` which is identical to `randt.c`)
